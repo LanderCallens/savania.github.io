@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/navigation.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <script src="script.js" defer></script> 
+    <script type="text/javascript" src="tilt.js" defer></script> 
+    <script src="https://kit.fontawesome.com/228b227685.js" crossorigin="anonymous"></script>
+
+    <title>CHANGE ME</title>
+
+</head>
+
+<body>
+
+    <!-- Navigate to top button-->
+    <a class="toTop" id="toTop" href="#navigation">
+        <div class="arrow">&nbsp;</div>
+    </a>
+
+    <!-- HEADER -> contains: nav, header, cta button -->
+    <header> <!-- tag acts as container -->
+        
+    <!-- mouse effect -->
+        <div id="blob">&nbsp;</div>
+        <div id="blur">&nbsp;</div>
+
+    <!-- navigation -->
+        <nav id="navigation">
+            <a class="logo" href="./index.html">
+                <img src="./images/Schild.png" id="logo">
+            </a>
+            <!-- Slide open menu -->
+            <div class="nav_menu">
+                <a href="@@@" target="_blank">
+                    <div class="contact_button" id="contact_button">Neem contact op</div>
+                </a>
+                <div class="nav-icon" id="nav_icon">
+                    <input type="checkbox" id="menu_checkbox">
+                    <label for="menu_checkbox">
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                    </label>
+                </div>
+                <div class="menu_expanded" id="menu_expanded">
+                    <div class="contact_expanded">
+                        <div class="contact_container">
+                            <p class="nav_title hidden_two">CONTACTEER ONS</p>
+                            <p class="nav_info hidden_two"><a href="mailto:savania@outlook.com">savania@outlook.com</a></p>
+                            <p class="nav_info hidden_two">+32479300538</p>
+                            <p class="nav_info hidden_two">savaanstraat 76/78</p>
+                            <p class="nav_info hidden_two">9000 Gent</p>
+                        </div>
+                    </div>
+                    <div class="nav_links">  
+                        <a href="@@@" class="hidden">
+                            <div>info</div>
+                        </a>
+                        <a href="@@@" class="hidden">
+                            <div>kalender</div>
+                        </a>
+                        <a href="@@@" class="hidden">
+                            <div>praesidium</div>
+                        </a>
+                    </div>
+                    <div class="nav_whitespace">&nbsp;</div>
+                </div>
+            </div>
+        </nav>
+    <!-- / navigation -->
+
+    <!-- hero section -->
+
+        <!-- hero IMG -->
+        <div class="hero_container">
+            <div class="panningImage" id="panningImage">
+                &nbsp;
+            </div>
+        </div>
+
+        <!-- tilting hero text -->
+        <div class="hero_container_2 hidden_three">
+            <div class="hero_text_container" data-tilt data-tilt-reverse="true" data-tilt-max="25" data-tilt-reset="true" data-tilt-speed="15000">
+                <div><p>savania</p></div>
+                <div><p>de tofste club</p></div>
+                <div>
+                    <button class="button_cta">
+                        <a href="#section2">ontdek onze club</a>
+                    </button> 
+                    <p>van gent</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Explore button -->
+        <a class="explore_container hidden" id="explore_container" href="#section1">
+            <div class="explore_button" id="explore_button">
+                <div class="arrow_container">
+                    <div class="arrow_down arrow_one" >
+                        <img src="./images/arrow-down-thin.svg" alt="arrow">
+                    </div>
+                    <div class="arrow_down arrow_two">
+                        <img src="./images/arrow-down-thin.svg" alt="arrow">
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    <!-- / hero section -->
+
+    </header>
+    <!-- / HEADER -->
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- section one -->
+        <section id="section1">
+
+            <!-- Discover text -->
+            <div class="discover_text_container hidden_three">
+                <p>wie zijn wij</p>
+                <p>Savania is de <span style="color: var(--groen)">studentenclub</span> van het <span style="color: var(--oranje)">Savaan- & Jeruzalemhuis</span>, gelegen in de <span style="color: var(--blauw)">Savaanstraat 76</span>, 9000 Gent. </p>
+            </div>
+
+            <!-- carousel -->
+            <div class="container" draggable="false">
+                <div class="carousel_container" data-mouse-down-at="0" data-prev-percentage="0" draggable="false">
+                    <ul class="carousel" draggable="false">
+                        <li class="carousel_item" draggable="false"></li>
+                        <li class="carousel_item" draggable="false"></li>
+                        <li class="carousel_item" draggable="false"></li>
+                        <li class="carousel_item" draggable="false"></li>
+                        <li class="carousel_item" draggable="false"></li>
+                        <li class="carousel_item" draggable="false"></li>
+                        <li class="carousel_item" draggable="false"></li>
+                        <li class="carousel_item" draggable="false"></li>
+                        <li class="carousel_item" draggable="false"></li>
+                        <li class="carousel_item" draggable="false"></li>
+                    </ul>
+                    <div class="tooltip">
+                        swipe me
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- / section one -->
+
+        <!-- section two -->
+        <section id="section2">
+            <div class="title_container hidden_three">
+                <h3>praktisch</h3>
+            </div>
+            <div class="s2_row hidden_three">
+                <article class="s2_article">
+
+                    <!-- article text -->
+                    <div class="article_container">
+                        <p class="article_title">Over ons</p>
+                        <a href="@@@" class="article_button">
+                            <div>Discover</div>
+                            <img src="./images/arrow-right-thin.svg">
+                        </a>
+                    </div>
+                    <p class="article_text hover1">Bij Savania organiseren wij op geregelde basis organiseren allerlei            activiteiten. Bij voorkeur op donderdag, al betrappen we onszelf wel om die ene extra activiteit nog snel op een andere dag in te plannen.
+                    </p>
+
+                    <!-- hover effect -->
+                    <div class="article_hover_item_1
+                    article_hover_item">
+                        &nbsp;
+                    </div>
+
+                </article>
+                
+                <article class="s2_article">
+                    <div class="article_container">
+                        <p class="article_title">
+                            Praktisch
+                        </p>
+                        <a href="@@@" class="article_button">
+                            <div>Discover</div>
+                            <img src="./images/arrow-right-thin.svg">
+                        </a>
+                    </div>
+                    <p class="article_text hover2">Wij organiseren op twee keer per maand een  baravond op donderdagavond. Vanaf 20u kan je bij ons op het vierde verdiep terecht voor muziek, ambiance, drank en/of een goeie babbel.  Dit allemaal aan zeer democratische prijzen.
+                    </p>
+
+                    <!-- hover effect -->
+                    <div class="article_hover_item_2 article_hover_item">
+                        &nbsp;
+                    </div>
+
+                </article>
+            </div>
+            <div class="s2_row hidden_three">
+                <article class="s2_article">
+                    <div class="article_container">
+                        <p class="article_title">Erasmus</p>
+                        <a href="@@@" class="article_button">
+                            <div>Discover</div>
+                            <img src="./images/arrow-right-thin.svg">
+                        </a>
+                    </div>
+                    <p class="article_text hover3">Savania is een studentenvereniging voor en door studenten van het Savaan- en Jeruzalemhuis. Hierbij horen ook Erasmus studenten! Ook voor hen wordt gezorgd voor een onvergetelijke studententijd tijdens hun verblijf in België. 
+                    </p>
+
+                    <!-- hover effect -->
+                    <div class="article_hover_item_3 article_hover_item">
+                        &nbsp;
+                    </div>
+
+                </article>
+
+                <article class="s2_article">
+                    <div class="article_container">
+                        <p class="article_title">De Jesa</p>
+                        <a href="@@@" class="article_button">
+                            <div>Discover</div>
+                            <img src="./images/arrow-right-thin.svg">
+                        </a>
+                    </div>
+                    <p class="article_text hover4">De Jesa is het clubboekje van Savania. Dit verschijnt minstens 2 keer per academiejaar, maar dat kan ook meer. In de JESA vind je allerlei weetjes over het praesidium, blikken we terug op afgelopen activiteiten, spelletjes, horoscoop en zo veel meer. 
+                    </p>
+
+                    <!-- hover effect -->
+                    <div class="article_hover_item_4 article_hover_item">
+                        &nbsp;
+                    </div>
+
+                </article>
+            </div>
+
+        </section>
+
+        <!-- / section two -->
+        
+    </main>
+    <!-- / MAIN CONTENT -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer_background">&nbsp;</div>
+        <div class="footer_content">
+            <!-- Form -->
+            <div class="contact_form">
+                <div>
+                    <p>Stel ons <br>een vraag</p>
+                    <form action="https://formsubmit.io/send/lander.dataline@gmail.com" autocomplete="off" method="post" target="_blank">
+                        <label for="email" class="email_label">UW EMAIL</label><br>
+                        <input type="text" autocomplete="off" id="email" name="email" placeholder="example.email@example.com" class="input"><br>
+                        <label for="vraag" class="email_label">UW VRAAG</label><br>
+                        <input type="text" autocomplete="off" id="vraag" name="vraag" placeholder="Hoe kan ik lid worden?" class="input"><br>
+                        <input name="_formsubmit_id" type="text" style="display:none">
+                        <input type="submit" value="Submit" class="submit">
+                    </form>
+                </div>
+            </div>
+            <!-- / Form -->
+
+            <!-- Logo -->
+            <div class="footer_logo" data-tilt data-tilt-reverse="true" data-tilt-max="35" data-tilt-reset="false" data-tilt-speed="5000">
+                <img src="./images/Schild_Savania.png">
+            </div>
+            <!-- / Logo -->
+
+            <!-- Info -->
+            <div class="contact_info">
+                <div class="info_container">
+                    <p class="info_title">CONTACTEER ONS</p>
+                    <p class="info_text">savania@outlook.com</p>
+                    <p class="info_text">+32479300538</p>
+                    <p class="info_text">savaanstraat 76/78</p>
+                    <p class="info_text">9000 Gent</p>
+                </div>
+            </div>
+            <!-- / Info -->
+        </div>
+        <div class="footer_credits hidden_three">
+            <div>
+                <p>© lander callens 2023</p>
+                <div> 
+                    <p>Social media</p>
+                    <ul class="socials">
+                        <a href="https://www.facebook.com/SavaniaGent/" target="_blank"><li><i class="fa-brands fa-square-facebook"></i></li></a>
+                        <a href="https://www.instagram.com/savaniagent/?hl=en" target="_blank"><li><i class="fa-brands fa-instagram"></i></li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

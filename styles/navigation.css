@@ -1,0 +1,61 @@
+ 
+  #menu_checkbox {
+    display: none;
+  }
+  
+  label {
+    position: absolute;
+    top: 30;
+    left: 50;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 0 auto;
+    cursor: pointer;
+  }
+  
+  label div {
+    position: relative;
+    top: 0;
+    height: 2.5px;
+    background-color: #fff;
+    transition: 0.3s ease transform, 0.3s ease top, 0.3s ease width,
+      0.3s ease right;
+    border-radius: 2px;
+  }
+  
+  label div:first-child {
+    transform-origin: 0;
+    margin-bottom: 6px;
+  }
+  
+  label div:last-child {
+    margin-bottom: 0;
+    transform-origin: 60px;
+  }
+  
+  label div:nth-child(2) {
+    right: 0;
+    width: 20px;
+    margin-bottom: 6px;
+  }
+  
+  #menu_checkbox:checked + label div:first-child {
+    top: -3px;
+    left: -2px;
+    transform: rotateZ(45deg);
+  }
+  
+  #menu_checkbox:checked + label div:last-child {
+    top: 33px;
+    right: 9px;
+    transform: rotateZ(45deg);
+  }
+  
+  #menu_checkbox:checked + label div:nth-child(2) {
+    width: 35px;
+    top: 0px;
+    right: 7px;
+    transform: rotateZ(-45deg);
+  }
+  
